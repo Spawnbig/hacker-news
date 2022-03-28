@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+*{
+    font-size: 1em;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+body {
+    min-height: 98vh;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+article{
+    min-height: 70vh;
+}
+
+article h1 {
+    text-align: center;
+}
+
+
+h1{
+    font-size: 2em;
+}
+
+.nav-class{
+    border: 2px;
+    border-style: solid;
+}
+
+.nav-container{
+    margin: 0;
+
+}
+
+.title-container h1{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container-new{
+    margin: 20px 100px 20px 100px;
+    padding: 0 0 0 10px;
+    border: 2px;
+    font-size: 1.1em;
+    border-color: black;
+    border-style: solid;
+}
+
+.container-new h2{
+    padding: 0;
+    margin: 0;
+}
+
+.container-new p {
+    padding: 0 0 20px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul li {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+form{
+    text-align: center;
+    padding-top: 50px;
+    min-height: 80px;
+}
+
+form input[type="text"] {
+    width: 60%;
+    padding: 10px;
+}
+
+form input[type="submit"]{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
+
+.form-contact{
+    font-weight: bold;
+}
+
+.form-contact label{
+    display: inline-block;
+    font-size: 1.4em;
+    width: 150px;
+    margin: 0;
+    padding: 0 0 60px 0;
+    vertical-align: top;
+}
+
+.form-contact input[type="text"]{
+    width: 500px;
+}
+
+.form-contact textarea {
+    resize: none;
+    width: 516px;
+}
+
+.form-contact input[type="submit"]{
+    margin-left: 600px;
+}
+
+
+footer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 0.7em;
+    height: 10vh;
+}
